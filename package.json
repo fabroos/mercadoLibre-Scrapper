@@ -1,0 +1,23 @@
+{
+  "name": "mercadolibre-scrapper",
+  "version": "1.0.0",
+  "description": "te duevuelve una img, url, title, y precio (por ahora sin centavos), de cierta cantidad de productos, ocupe express para desplegarlo como una api y playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fabrizio Signoretta <signorettafabrizio@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.16.3",
+    "standard": "^16.0.4"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
